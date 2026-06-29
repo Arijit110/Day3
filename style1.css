@@ -1,0 +1,46 @@
+
+.gallery {
+   display: grid;
+  gap: 10px;
+  grid-template-areas:
+  "photo1 photo2 photo3"
+  "photo4 photo5 photo6" ;
+ height: 500px;
+ width: 600px;
+ 
+}
+
+.gallery-item1 img {
+ grid-area: photo1;
+ height: 500px;
+ width: 350px;
+}
+.gallery-item2 img{
+ grid-area:photo2;
+ height: 200px;
+ width: 350px;
+}
+.gallery-item3 img{
+ grid-area:photo3;
+ height: 500px;
+ width: 350px;
+}
+.gallery-item4 img{
+ grid-area:photo4;
+ height: 200px;
+ width: 350px;
+}
+.gallery-item5 img{
+ grid-area:photo5;
+ height: 500px;
+ width: 350px;
+ margin-top: -300px;
+
+
+}
+.gallery-item6 img{
+ grid-area:photo6;
+ height: 200px;
+ width: 350px;
+}
+
